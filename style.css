@@ -29,10 +29,11 @@ p {
 }
 
 .footer{
-    color:antiquewhite;
     margin: 30px auto;
     font-size:1rem;
+    color:antiquewhite
 }
+
 
 
 .button-23 {
@@ -77,6 +78,7 @@ p {
   opacity: 1;
 }
 
+
 @media screen and (max-width: 576px ){
 
   * {
@@ -92,3 +94,4 @@ p {
   }
   
 }
+
