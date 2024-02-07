@@ -2,22 +2,22 @@ function diceDisplay(n, classi){
     var im = ""
     var alti = ""
     if (n===1){
-        im = "../Dicee Challenge - Starting Files/images/dice1.png"
+        im = "./images/dice1.png"
         alti="dice 1"
     } else if (n===2){
-        im = "../Dicee Challenge - Starting Files/images/dice2.png"
+        im = "./images/dice2.png"
         alti="dice 2"
     } else if (n===3){
-        im = "../Dicee Challenge - Starting Files/images/dice3.png"
+        im = "./images/dice3.png"
         alti="dice 3"
     } else if (n===4){
-        im = "../Dicee Challenge - Starting Files/images/dice4.png"
+        im = "./images/dice4.png"
         alti="dice 4"
     } else if (n===5){
-        im = "../Dicee Challenge - Starting Files/images/dice5.png"
+        im = "./images/dice5.png"
         alti="dice 5"
     } else {
-        im = "../Dicee Challenge - Starting Files/images/dice6.png"
+        im = "./images/dice6.png"
         alti="dice 6"
     }
     document.getElementsByClassName(classi).src = im;
