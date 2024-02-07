@@ -17,12 +17,12 @@ function diceDisplay(n, classi){
         im = "./images/dice5.png"
         alti="dice 5"
     } else {
-        im = "./images/dice6.png"
+        im = ".images/dice6.png"
         alti="dice 6"
     }
-    document.getElementsByClassName(classi).src = im;
+
+    document.querySelector(classi).src = im;
     document.getElementsByClassName(classi).alt = alti;
-    return [im, alti]
 }
 
 function LaunchDice(){
@@ -31,6 +31,14 @@ function LaunchDice(){
 
 function play(){
     var res = LaunchDice();
-    diceDisplay(res[0], "dice1");
-    diceDisplay(res[1], "dice2");
+    diceDisplay(res[0], ".dice1");
+    diceDisplay(res[1], ".dice2");
+
+    if (res[0] > res[1]){
+        document.querySelector("h1").innerHTML = "First player wins !";
+    } else if (res[0]<res[1]) {
+        document.querySelector("h1").innerHTML = "Second player wins !";
+    } else {
+        document.querySelector("h1").innerHTML = "Equality, loosers";
+    }
 }
