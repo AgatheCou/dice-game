@@ -5,19 +5,19 @@ function diceDisplay(n, classi){
         im = "https://github.com/AgatheCou/dice-game/blob/main/images/dice1.png"
         alti="dice 1"
     } else if (n===2){
-        im = "AgatheCou/dice-game/images/dice2.png"
+        im = "https://github.com/AgatheCou/dice-game/blob/main/images/dice2.png"
         alti="dice 2"
     } else if (n===3){
-        im = "AgatheCou/dice-game/images/dice3.png"
+        im = "https://github.com/AgatheCou/dice-game/blob/main/images/dice3.png"
         alti="dice 3"
     } else if (n===4){
-        im = "AgatheCou/dice-game/images/dice4.png"
+        im = "https://github.com/AgatheCou/dice-game/blob/main/images/dice4.png"
         alti="dice 4"
     } else if (n===5){
-        im = "AgatheCou/dice-game/images/dice5.png"
+        im = "https://github.com/AgatheCou/dice-game/blob/main/images/dice5.png"
         alti="dice 5"
     } else {
-        im = "AgatheCou/dice-gameimages/dice6.png"
+        im = "https://github.com/AgatheCou/dice-game/blob/main/images/dice6.png"
         alti="dice 6"
     }
 
