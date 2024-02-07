@@ -1,15 +1,17 @@
 body{
-    background-color:#393E46 ;
+    background-color:#393E46;
 }
 
 .container{
     text-align: center;
     color:#4ECCA3;
+    margin:auto;
 }
 
 h1{
     font-family: lobster;
-    font-size:10em;
+    font-size:1000%;
+    margin: 0px 30px 60px 30px;
     text-shadow: 3px 2px 0px #232931;
     text-decoration: underline;
 }
@@ -24,9 +26,55 @@ h1{
 p {
     font-family:"Indie Flower";
     text-align:center;
-    font-size: 1.2em;
 }
 
-.footer{
+footer{
     color:antiquewhite;
+    margin: 30px auto;
+    font-size:1rem;
 }
+
+
+.button-23 {
+  background-color: #393E46;
+  border: px solid #232931;
+  border-radius: 20px;
+  box-sizing: border-box;
+  color: #4ECCA3;
+  cursor: pointer;
+  font-family: "Indie flower",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 20px;
+  outline: none;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+  user-select: none;
+  -webkit-user-select: none;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+  padding:20px 40px;
+}
+
+.button-23:focus-visible {
+  box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+  transition: box-shadow .2s;
+}
+
+.button-23:active {
+  border-color: #000000;
+  transform: scale(.96);
+}
+
+.button-23:disabled {
+  border-color: #DDDDDD;
+  color: #DDDDDD;
+  cursor: not-allowed;
+  opacity: 1;
+}
+
+
