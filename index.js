@@ -2,7 +2,7 @@ function diceDisplay(n, classi){
     var im = ""
     var alti = ""
     if (n===1){
-        im = "AgatheCou/dice-game/images/dice1.png"
+        im = "https://github.com/AgatheCou/dice-game/blob/main/images/dice1.png"
         alti="dice 1"
     } else if (n===2){
         im = "AgatheCou/dice-game/images/dice2.png"
